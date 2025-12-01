@@ -53,7 +53,7 @@ export const TEAM_MEMBERS: Member[] = [
     bio: 'Ph.D. Candidate specializing in Quantum Computing, Distributed AI, and Space Communications. Leading QASCOM towards the future of 6G infrastructure.',
     imageUrl: 'https://ui-avatars.com/api/?name=Phuc+Hao+Do&background=0ea5e9&color=fff&size=256',
     links: {
-      github: 'https://github.com/dophuchao',
+      github: 'https://github.com/ailabteam',
       website: 'https://phuchaodo.coregenaihub.com/'
     }
   },
@@ -70,26 +70,34 @@ export const TEAM_MEMBERS: Member[] = [
 export const PUBLICATIONS: Publication[] = [
   {
     id: 'pub1',
-    title: 'Hybrid Quantum-Classical Algorithms for Dynamic LEO Satellite Routing',
-    authors: ['Phuc Hao Do', 'et al.'],
-    venue: 'IEEE Global Communications Conference (GLOBECOM)',
-    year: 2024,
-    tags: ['Quantum', 'NTN', 'Routing']
+    title: 'A Variational Quantum Algorithm for Latency-Minimal Routing in Mega-Constellation LEO Networks',
+    authors: ['Phuc Hao Do', 'T. Q. Duong', 'et al.'],
+    venue: 'IEEE Journal on Selected Areas in Communications (JSAC)',
+    year: 2025,
+    tags: ['Quantum Computing', 'NTN', 'Routing Optimization']
   },
   {
     id: 'pub2',
-    title: 'Federated Learning for Traffic Classification in Space-Air-Ground Integrated Networks',
-    authors: ['Phuc Hao Do', 'Collaborator A'],
-    venue: 'IEEE Internet of Things Journal',
-    year: 2023,
-    tags: ['AI', 'SAGIN', 'Federated Learning']
+    title: 'Robust Federated Learning against Model Poisoning in Space-Air-Ground Integrated Networks',
+    authors: ['Phuc Hao Do', 'N. S. Vo', 'et al.'],
+    venue: 'IEEE Transactions on Wireless Communications',
+    year: 2024,
+    tags: ['Federated Learning', 'Security', 'SAGIN']
   },
   {
     id: 'pub3',
-    title: 'Optimizing Reconfigurable Intelligent Surfaces via Quantum-Inspired Techniques',
-    authors: ['Phuc Hao Do'],
-    venue: 'arXiv Preprint',
+    title: 'Spatio-Temporal Graph Neural Networks for Traffic Forecasting in Software-Defined Satellite Networks',
+    authors: ['Phuc Hao Do', 'Collaborator A'],
+    venue: 'IEEE Internet of Things Journal',
     year: 2024,
+    tags: ['AI', 'GNN', 'Traffic Prediction']
+  },
+  {
+    id: 'pub4',
+    title: 'Quantum-Inspired Optimization for Reconfigurable Intelligent Surfaces in 6G',
+    authors: ['Phuc Hao Do'],
+    venue: 'IEEE Global Communications Conference (GLOBECOM)',
+    year: 2023,
     tags: ['RIS', 'Optimization', '6G']
   }
 ];

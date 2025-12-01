@@ -58,7 +58,7 @@ const Team: React.FC = () => {
           <p className="text-slate-400 max-w-2xl mx-auto mb-8">
             We are always looking for motivated students and collaborators interested in Quantum Computing, AI, and Next-Gen Networks.
           </p>
-          <a href="mailto:phuchaodo@example.com" className="text-quantum-400 hover:text-quantum-300 font-medium underline">
+          <a href="mailto:haodp.sut@gmail.com" className="text-quantum-400 hover:text-quantum-300 font-medium underline">
             Get in touch
           </a>
         </div>

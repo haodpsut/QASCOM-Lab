@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
               <div>
                 <h3 className="text-lg font-semibold text-white">Email</h3>
                 <p className="text-slate-400 mb-1">For research inquiries and collaboration:</p>
-                <a href="mailto:phuchaodo@example.com" className="text-quantum-400 hover:underline">phuchaodo@example.com</a>
+                <a href="mailto:haodp.sut@gmail.com" className="text-quantum-400 hover:underline">haodp.sut@gmail.com</a>
               </div>
             </div>
 
@@ -30,7 +30,7 @@ const Contact: React.FC = () => {
                     <a href="https://phuchaodo.coregenaihub.com/" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white transition-colors">
                         Personal Website
                     </a>
-                    <a href="https://github.com/dophuchao" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white transition-colors">
+                    <a href="https://github.com/ailabteam" target="_blank" rel="noreferrer" className="text-slate-400 hover:text-white transition-colors">
                         GitHub Repositories
                     </a>
                 </div>
