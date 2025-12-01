@@ -69,45 +69,61 @@ export const TEAM_MEMBERS: Member[] = [
 
 export const PUBLICATIONS: Publication[] = [
   {
-    id: 'pub1',
-    title: 'A Variational Quantum Algorithm for Latency-Minimal Routing in Mega-Constellation LEO Networks',
-    authors: ['Phuc Hao Do', 'T. Q. Duong', 'et al.'],
-    venue: 'IEEE Journal on Selected Areas in Communications (JSAC)',
+    id: 'pub2025_1',
+    title: 'Classifying IoT Botnet Attacks With Kolmogorov-Arnold Networks: A Comparative Analysis of Architectural Variations',
+    authors: ['Phuc Hao Do', 'T. D. Le', 'T. D. Dinh', 'V. Dai Pham'],
+    venue: 'IEEE Access (Q1)',
     year: 2025,
-    tags: ['Quantum Computing', 'NTN', 'Routing Optimization']
+    tags: ['AI', 'Security', 'IoT', 'KANs']
   },
   {
-    id: 'pub2',
-    title: 'Robust Federated Learning against Model Poisoning in Space-Air-Ground Integrated Networks',
-    authors: ['Phuc Hao Do', 'N. S. Vo', 'et al.'],
-    venue: 'IEEE Transactions on Wireless Communications',
+    id: 'pub2025_2',
+    title: 'Optimizing Resource Allocation for Multi-beam Satellites Using Genetic Algorithm Variations',
+    authors: ['Phuc Hao Do', 'T. D. Le', 'A. Berezkin', 'R. Kirichek'],
+    venue: 'Distributed Computer and Communication Networks (DCCN)',
+    year: 2025,
+    tags: ['Satellite Networks', 'Optimization', 'Genetic Algorithms']
+  },
+  {
+    id: 'pub2025_3',
+    title: 'Multi-modal sensor fusion and federated learning for TinyML on resource-constrained IoT devices',
+    authors: ['Phuc Hao Do', 'T. D. Le', 'T. D. Dinh', 'V. D. Pham'],
+    venue: 'International Journal of Parallel, Emergent and Distributed Systems',
+    year: 2025,
+    tags: ['Federated Learning', 'TinyML', 'IoT']
+  },
+  {
+    id: 'pub2025_4',
+    title: 'Raising the Bar: An Asymptotic Comparison of Classical and Quantum Shortest Path Algorithms',
+    authors: ['Phuc Hao Do', 'T. D. Le'],
+    venue: 'arXiv preprint arXiv:2508.12074',
+    year: 2025,
+    tags: ['Quantum Computing', 'Algorithms', 'Routing']
+  },
+  {
+    id: 'pub2025_5',
+    title: 'A Non-Monotonic Relationship: An Empirical Analysis of Hybrid Quantum Classifiers for Unseen Ransomware Detection',
+    authors: ['H. P. Le', 'Phuc Hao Do', 'V. H. L. Nguyen', 'N. H. Van Nguyen'],
+    venue: 'arXiv preprint arXiv:2509.07924',
+    year: 2025,
+    tags: ['Quantum Machine Learning', 'Security', 'Ransomware']
+  },
+  {
+    id: 'pub2024_1',
+    title: 'A Horizontal Federated Learning Approach to IoT Malware Traffic Detection: An Empirical Evaluation with N-BaIoT Dataset',
+    authors: ['Phuc Hao Do', 'T. D. Le', 'V. Vishnevsky', 'A. Berezkin', 'R. Kirichek'],
+    venue: 'ICACT-Transactions on Advanced Communications Technology',
     year: 2024,
-    tags: ['Federated Learning', 'Security', 'SAGIN']
-  },
-  {
-    id: 'pub3',
-    title: 'Spatio-Temporal Graph Neural Networks for Traffic Forecasting in Software-Defined Satellite Networks',
-    authors: ['Phuc Hao Do', 'Collaborator A'],
-    venue: 'IEEE Internet of Things Journal',
-    year: 2024,
-    tags: ['AI', 'GNN', 'Traffic Prediction']
-  },
-  {
-    id: 'pub4',
-    title: 'Quantum-Inspired Optimization for Reconfigurable Intelligent Surfaces in 6G',
-    authors: ['Phuc Hao Do'],
-    venue: 'IEEE Global Communications Conference (GLOBECOM)',
-    year: 2023,
-    tags: ['RIS', 'Optimization', '6G']
+    tags: ['Federated Learning', 'Malware Detection', 'IoT']
   }
 ];
 
 export const NEWS: NewsItem[] = [
   {
     id: 'n1',
-    date: '2024-05-20',
-    title: 'QASCOM Lab Founded',
-    summary: 'Officially launching our interdisciplinary research initiative for 6G NTN systems.'
+    date: '2025-01-15',
+    title: 'New Publication in IEEE Access',
+    summary: 'Our research on Kolmogorov-Arnold Networks for IoT Security has been accepted.'
   },
   {
     id: 'n2',
